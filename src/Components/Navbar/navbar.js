@@ -1,11 +1,11 @@
-
+import React from "react";
 
 
 const Navbar = () => {
 
 return (
-    <section className="">
-    <header className='py-5 px-25 top-0 left-0 fixed flex justify-between items-center w-full z-100  '>
+   
+    <header className='py-5 px-25 top-0 left-0 justify-between flex items-center w-full z-[100]'>
       <a className='logo'>
       Elemental Analytics
       </a>
@@ -30,7 +30,6 @@ return (
       
     </header>
    
-  </section>
 );
 
 
