@@ -1,5 +1,7 @@
 import React from "react";
-import video from '../../Assests/science.mp4'
+import { motion } from "framer-motion";
+import video from '../../Assets/science.mp4'
+import images from '../../Assets/images'
 const Main = () => {
 
 return(
@@ -9,8 +11,18 @@ return(
     <video  src={video} muted autoPlay loop type="science/mp4"></video>
    </div>
    
-  <div>
+  <div className="p-5">
   <h1>What we Offer</h1>
+  <div className="w-3/4 flex">
+  {images.map(image => {
+ return(
+    <div>
+      <img src={image}/>
+    </div>
+    );
+  })}
+
+  </div>
   </div>
 
 
