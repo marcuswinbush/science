@@ -58,7 +58,7 @@ return(
     <h1>About Us</h1>
     <div className="flex justify-between items-center">
     <p className="flex-1 pr-5">
-      We provide a variety of different variations of science. From environmental to AI, be apart of our non-profit orginzation for the aid of start-up companies. Be apart of the future of science!
+      We provide a variety of different branches of science. From environmental to AI, be apart of our non-profit organization for the aid of start-up companies. Be apart of the future of science!
     </p>
     <img className="max-w-80 h-auto" src={hand}>
     </img>
