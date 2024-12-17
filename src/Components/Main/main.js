@@ -9,6 +9,8 @@ import image5 from '../../Assets/image5.webp'
 import hand from '../../Assets/hand.webp'
 const Main = () => {
 
+  
+
 return(
 <section className="w-full relative m-auto justify-center pt-4 items-center">
     
@@ -16,14 +18,22 @@ return(
     <video  src={video} muted autoPlay loop type="science/mp4"></video>
    </div>
    
+ 
   <div className="p-5">
   <h1> What We Offer</h1>
-  <motion.div className=" flex  h-full">
+  
+  
+
+  
+<motion.div className=" flex  h-full">
+
  <div className="flex gap-3" >
+ 
   <motion.div 
   className="cursor-pointer"
   whileHover={{scale: 1.1,}}>
-  <img className="rounded-md" src={image1}></img>
+  <img className="rounded-md" 
+  src={image1}></img>
   </motion.div>
   
   <motion.div 
@@ -31,28 +41,29 @@ return(
   whileHover={{scale: 1.1,}}>
   <img className="rounded-md" src={image2}></img>
   </motion.div>
-
+ 
   <motion.div 
   className="cursor-pointer"
   whileHover={{scale: 1.1,}}>
   <img className="rounded-md" src={image3}></img>
   </motion.div>
-
+ 
   <motion.div 
   className="cursor-pointer"
   whileHover={{scale: 1.1,}}>
   <img className="rounded-md" src={image4}></img>
   </motion.div>
-
+ 
   <motion.div 
   className="cursor-pointer"
   whileHover={{scale: 1.1,}}>
   <img className="rounded-md" src={image5}></img>
   </motion.div>
 
- </div>
 
-  </motion.div>
+</div>
+
+ </motion.div>
   </div>
   <div className="m-7 ">
     <h1>About Us</h1>
